@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <h1>My Restaurant Menu</h1>/
+    <p>Item 1: $10</p>
+    <p>Item 2: $15</p>
+    <!-- Add more menu items as needed -->
+
+    <!-- Link to PDF file -->
+    <a href="path/to/your/menu.pdf" target="_blank" rel="noopener noreferrer">Download Menu (PDF)</a>
+</body>
+</html>
