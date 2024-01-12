@@ -1,88 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Taste Haven Menu</title>
-    <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f8f8f8;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            text-align: center;
-            padding: 20px;
-            background-color: #e8491d;
-            color: #fff;
-        }
-        section {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        h1 {
-            color: #e8491d;
-            border-bottom: 2px solid #e8491d;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #e8491d;
-            margin-top: 20px;
-        }
-        p {
-            margin-bottom: 10px;
-        }
-        a {
-            color: #e8491d;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .menu-item {
-            margin-bottom: 20px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap">
+  <title>Lmdahdeh Menu</title>
 </head>
+
 <body>
-    <header>
-        <h1>Taste Haven</h1>
-        <p>Indulge in a symphony of flavors</p>
-    </header>
-    <section>
-        <h2>Pizzas 🍕</h2>
-        <div class="menu-item">
-            <p><strong>Marguerite</strong> - Tomato sauce, Cheddar</p>
-            <p>Sizes: L - 300 DA, XL - 650 DA, XXL - 1000 DA</p>
-        </div>
-        <div class="menu-item">
-            <p><strong>Viande hachée</strong> - Tomato sauce, Cheddar, Ground beef</p>
-            <p>Sizes: L - 350 DA, XL - 750 DA, XXL - 1200 DA</p>
-        </div>
-        <!-- Repeat similar styling for other pizza items -->
+  <header>
+    <img src="img/logo-inline.png" alt="L'Mdahdeh Logo" height="200">
+  </header>
 
-        <h2>Sauce Blanche 🧀</h2>
-        <div class="menu-item">
-            <p><strong>Blanca</strong> - White sauce, Cheese</p>
-            <p>Sizes: L - 350 DA, XL - 750 DA, XXL - 1150 DA</p>
-        </div>
-        <div class="menu-item">
-            <p><strong>Mama</strong> - White sauce, Cheese, Tuna, Onion</p>
-            <p>Sizes: L - 400 DA, XL - 850 DA, XXL - 1200 DA</p>
-        </div>
-        <!-- Repeat similar styling for other sauce blanche items -->
-
-        <!-- Repeat the structure for Souflet, Burger, Tacos, Snacks, Plats, Souplement Ingredients, Boissons -->
-
-        <h2>Specialty 🌟</h2>
-        <div class="menu-item">
-            <p><strong>L’mdahdeh</strong> - Chef's Choice</p>
-            <p>Sizes: L - 600 DA, XL - 1100 DA, XXL - 1500 DA</p>
-        </div>
-    </section>
 </body>
+
+<section>
+  <table>
+    <tr>
+      <td>
+        <h2>Pizzas 🍕</h2>
+      </td>
+      <td>
+        <p>(L / XL / XXL)</p>
+      </td>
+    </tr>
+  </table>
+  <table class="menu-table">
+    <!-- Viande hachée -->
+    <tr>
+      <td><strong>Viande hachée</strong></td>
+      <td>350 DA / 750 DA / 1200 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Tomate, Cheddar, Viande Hachée</td>
+    </tr>
+
+    <!-- Marguerite -->
+    <tr>
+      <td><strong>Marguerite</strong></td>
+      <td>300 DA / 650 DA / 1000 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Tomate, Cheddar</td>
+    </tr>
+
+    <!-- Escalope -->
+    <tr>
+      <td><strong>Escalope</strong></td>
+      <td>350 DA / 750 DA / 1200 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Tomate, Cheddar, Escalope</td>
+    </tr>
+
+    <!-- Thon -->
+    <tr>
+      <td><strong>Thon</strong></td>
+      <td>350 DA / 750 DA / 1200 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Tomate, Cheddar, Thon</td>
+    </tr>
+
+    <!-- Végétarienne -->
+    <tr>
+      <td><strong>Végétarienne</strong></td>
+      <td>400 DA / 850 DA / 1300 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Tomate, Cheddar, Oignon, Poivrons, Courgettes, Aubergines</td>
+    </tr>
+
+    <!-- 4 saison -->
+    <tr>
+      <td><strong>4 saison</strong></td>
+      <td>600 DA / 1100 DA / 1500 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Tomate, Cheddar, Viande Hachée, Escalope, Thon, Comambert</td>
+    </tr>
+
+    <!-- 4 fromage -->
+    <tr>
+      <td><strong>4 fromage</strong></td>
+      <td>600 DA / 1100 DA / 1500 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Tomate, Cheddar, Gruyère, Comambert</td>
+    </tr>
+
+    <!-- L’mdahdeh -->
+    <tr>
+      <td><strong>L’mdahdeh</strong></td>
+      <td>600 DA / 1100 DA / 1500 DA</td>
+    </tr>
+    <tr>
+      <td>Le Choix du Chef</td>
+    </tr>
+
+    <!-- Repeat similar structure for other pizza items... -->
+  </table>
+</section>
+
+<section>
+  <table>
+    <tr>
+      <td>
+        <h2>Sauce Blanche 🧀</h2>
+      </td>
+      <td>
+        <p>(L / XL / XXL)</p>
+      </td>
+    </tr>
+  </table>
+  <table class="menu-table">
+    <!-- Blanca -->
+    <tr>
+      <td><strong>Blanca</strong></td>
+      <td>350 DA / 750 DA / 1150 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Blanche, Fromage</td>
+    </tr>
+
+    <!-- Mama -->
+    <tr>
+      <td><strong>Mama</strong></td>
+      <td>400 DA / 850 DA / 1200 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Blanche, Fromage, Thon, Onion</td>
+    </tr>
+
+    <!-- Milana -->
+    <tr>
+      <td><strong>Milana</strong></td>
+      <td>450 DA / 950 DA / 1250 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Blanche, Fromage, Viande Hachée</td>
+    </tr>
+
+    <!-- Boisée poulet -->
+    <tr>
+      <td><strong>Boisée poulet</strong></td>
+      <td>450 DA / 950 DA / 1250 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Blanche, Fromage, Poulet</td>
+    </tr>
+
+    <!-- Végétarienne -->
+    <tr>
+      <td><strong>Végétarienne</strong></td>
+      <td>450 DA / 950 DA / 1300 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Blanche, Fromage, Oignon, Poivrons, Courgettes, Aubergines</td>
+    </tr>
+
+    <!-- 4 fromage -->
+    <tr>
+      <td><strong>4 fromage</strong></td>
+      <td>650 DA / 1200 DA / 1500 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Blanche, Fromage, Cheddar, Gruyère, Comambert</td>
+    </tr>
+
+    <!-- 4 saison -->
+    <tr>
+      <td><strong>4 saison</strong></td>
+      <td>650 DA / 1300 DA / 1650 DA</td>
+    </tr>
+    <tr>
+      <td>Sauce Blanche, Fromage, Viande Hachée, Escalope, Thon, Comambert</td>
+    </tr>
+
+    <!-- Repeat similar structure for other Sauce Blanche items... -->
+  </table>
+</section>
+
+
+<section>
+  <h2>Souflet 🥧</h2>
+  <table class="menu-table">
+    <!-- Viande hachée -->
+    <tr>
+      <td><strong>Viande hachée</strong></td>
+      <td>450 DA</td>
+    </tr>
+
+    <!-- Poulet -->
+    <tr>
+      <td><strong>Poulet</strong></td>
+      <td>450 DA</td>
+    </tr>
+
+    <!-- Merguez -->
+    <tr>
+      <td><strong>Merguez</strong></td>
+      <td>450 DA</td>
+    </tr>
+
+    <!-- 3 fromage -->
+    <tr>
+      <td><strong>3 fromage</strong></td>
+      <td>500 DA</td>
+    </tr>
+
+    <!-- Foie -->
+    <tr>
+      <td><strong>Foie</strong></td>
+      <td>600 DA</td>
+    </tr>
+
+    <!-- Mixtes -->
+    <tr>
+      <td><strong>Mixtes</strong></td>
+      <td>700 DA</td>
+    </tr>
+  </table>
+</section>
+
+
+<section>
+  <h2>Burger 🍔</h2>
+  <table class="menu-table">
+    <!-- Cheese burger -->
+    <tr>
+      <td><strong>Cheese burger</strong></td>
+      <td>1200 DA</td>
+    </tr>
+    <tr>
+      <td>Viande Hachée, Salad, Tomate, Oignon, Fromage</td>
+    </tr>
+
+    <!-- Zinger burger -->
+    <tr>
+      <td><strong>Zinger burger</strong></td>
+      <td>1300 DA</td>
+    </tr>
+    <tr>
+      <td>Brosted, Salade, Tomate, Oignon, Fromage</td>
+    </tr>
+
+    <!-- No meat -->
+    <tr>
+      <td><strong>No meat</strong></td>
+      <td>1100 DA</td>
+    </tr>
+    <tr>
+      <td>2 Œuf, Salade, Tomate, Fromage, Oignon</td>
+    </tr>
+
+    <!-- Cheiken burger -->
+    <tr>
+      <td><strong>Cheiken burger</strong></td>
+      <td>1300 DA</td>
+    </tr>
+    <tr>
+      <td>Blanc de poulet, Salade, Tomate, Oignon, Fromage</td>
+    </tr>
+
+    <!-- Big burger -->
+    <tr>
+      <td><strong>Big burger</strong></td>
+      <td>1500 DA</td>
+    </tr>
+    <tr>
+      <td>2 Viande hachée, 2 Fromage, Salade, Tomate, Oignon</td>
+    </tr>
+
+    <!-- L’mdahdeh burger -->
+    <tr>
+      <td><strong>L’mdahdeh burger</strong></td>
+      <td>1600 DA</td>
+    </tr>
+    <tr>
+      <td>Le Choix du Chef</td>
+    </tr>
+  </table>
+</section>
+
+
+<section>
+  <h2>Tacos 🌮</h2>
+  <table class="menu-table">
+    <!-- Algérien -->
+    <tr>
+      <td><strong>Algérien</strong></td>
+      <td>400 DA</td>
+    </tr>
+    <tr>
+      <td>Chawarma, Frites, Cheddar, Sauce fromagère</td>
+    </tr>
+
+    <!-- Twister -->
+    <tr>
+      <td><strong>Twister</strong></td>
+      <td>400 DA</td>
+    </tr>
+    <tr>
+      <td>Crispy Chicken, Frites, Cheddar, Sauce Fromagère</td>
+    </tr>
+
+    <!-- Fois -->
+    <tr>
+      <td><strong>Fois</strong></td>
+      <td>400 DA</td>
+    </tr>
+    <tr>
+      <td>Fois, Frites, Cheddar, Sauce Fromagère</td>
+    </tr>
+
+    <!-- Fajitas viande -->
+    <tr>
+      <td><strong>Fajitas viande</strong></td>
+      <td>400 DA</td>
+    </tr>
+    <tr>
+      <td>Steak de Viande, Poivrons, Sauce Fromagère</td>
+    </tr>
+
+    <!-- Fajitas poulet -->
+    <tr>
+      <td><strong>Fajitas poulet</strong></td>
+      <td>300 DA</td>
+    </tr>
+    <tr>
+      <td>Poulet, Poivrons, Sauce Fromagère</td>
+    </tr>
+
+    <!-- Fajitas panaché -->
+    <tr>
+      <td><strong>Fajitas panaché</strong></td>
+      <td>400 DA</td>
+    </tr>
+    <tr>
+      <td>2 Viande, Poivrons, Sauce Fromagère</td>
+    </tr>
+
+    <!-- Panachee -->
+    <tr>
+      <td><strong>Panachee</strong></td>
+      <td>450 DA</td>
+    </tr>
+    <tr>
+      <td>2 Viande, Frites, Cheddar, Sauce Fromagère</td>
+    </tr>
+
+    <!-- Tacos L’mdahdeh -->
+    <tr>
+      <td><strong>Tacos L’mdahdeh</strong></td>
+      <td>600 DA</td>
+    </tr>
+    <tr>
+      <td>Le Choix du Chef</td>
+    </tr>
+  </table>
+</section>
+
+
+<section>
+  <h2>Souplement Ingredients 🍲</h2>
+  <table class="menu-table">
+    <!-- Poulet/Viande hachée -->
+    <tr>
+      <td><strong>Poulet/Viande hachée</strong></td>
+      <td>150 DA</td>
+    </tr>
+
+    <!-- Comambert/Cheddar -->
+    <tr>
+      <td><strong>Comambert/Cheddar</strong></td>
+      <td>150 DA</td>
+    </tr>
+  </table>
+</section>
+
+
+<section>
+  <h2>Snacks 🥙</h2>
+  <table class="menu-table">
+    <!-- Chawarma -->
+    <tr>
+      <td><strong>Chawarma</strong></td>
+      <td>300 DA</td>
+    </tr>
+
+    <!-- Viande hachée -->
+    <tr>
+      <td><strong>Viande hachée</strong></td>
+      <td>300 DA</td>
+    </tr>
+
+    <!-- Poulet mariné -->
+    <tr>
+      <td><strong>Poulet mariné</strong></td>
+      <td>300 DA</td>
+    </tr>
+
+    <!-- Panaché -->
+    <tr>
+      <td><strong>Panaché</strong></td>
+      <td>350 DA</td>
+    </tr>
+
+    <!-- Twister -->
+    <tr>
+      <td><strong>Twister</strong></td>
+      <td>350 DA</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Plats 🍛</h2>
+  <table class="menu-table">
+    <!-- Plat chawarma -->
+    <tr>
+      <td><strong>Plat chawarma</strong></td>
+      <td>650 DA</td>
+    </tr>
+
+    <!-- Plat viande hachée -->
+    <tr>
+      <td><strong>Plat viande hachée</strong></td>
+      <td>650 DA</td>
+    </tr>
+
+    <!-- Plat poulet -->
+    <tr>
+      <td><strong>Plat poulet</strong></td>
+      <td>650 DA</td>
+    </tr>
+
+    <!-- Plat L’mdahdeh -->
+    <tr>
+      <td><strong>Plat L’mdahdeh</strong></td>
+      <td>800 DA</td>
+    </tr>
+  </table>
+</section>
+
+
+<section>
+  <h2>Boissons 🥤</h2>
+  <table class="menu-table">
+    <!-- Bouteille d’eau -->
+    <tr>
+      <td><strong>Bouteille d’eau</strong></td>
+      <td>45 DA</td>
+    </tr>
+
+    <!-- Canette -->
+    <tr>
+      <td><strong>Canette</strong></td>
+      <td>80 DA</td>
+    </tr>
+
+    <!-- Bouteille 1 L -->
+    <tr>
+      <td><strong>Bouteille 1 L</strong></td>
+      <td>120 DA</td>
+    </tr>
+  </table>
+</section>
+
+
+<footer>
+  <table>
+    <td>
+      <div class="social-links">
+        <a href="https://www.instagram.com/lmdahdeh.batna/" target="_blank">
+          <img src="img/ic_instagram.png" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=61554166569055" target="_blank">
+          <img src="img/ic_facebook.png" alt="Facebook">
+        </a>
+      </div>
+      <p><a href="tel:0795 98 93 52">Phone: 0795 98 93 52</a></p>
+    </td>
+  </table>
+
+</footer>
+
+
+
 </html>
